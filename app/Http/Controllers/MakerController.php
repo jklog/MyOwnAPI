@@ -14,17 +14,7 @@ class MakerController extends Controller {
 	 */
 	public function index()
 	{
-		//
-	}
-
-	/**
-	 * Show the form for creating a new resource.
-	 *
-	 * @return Response
-	 */
-	public function create()
-	{
-		//
+		return('index at makers controller');
 	}
 
 	/**
@@ -44,17 +34,6 @@ class MakerController extends Controller {
 	 * @return Response
 	 */
 	public function show($id)
-	{
-		//
-	}
-
-	/**
-	 * Show the form for editing the specified resource.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function edit($id)
 	{
 		//
 	}
