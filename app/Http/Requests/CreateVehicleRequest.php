@@ -34,5 +34,6 @@ class CreateVehicleRequest extends Request {
 		{
 			return response()->json(['message' => $errors, 'code' => 422], 422);
 		}
+		
 	}
 
