@@ -5,6 +5,9 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
+use App\Maker;
+use App\Vehicle;
+
 class MakerVehiclesController extends Controller {
 
 	/**
@@ -14,8 +17,16 @@ class MakerVehiclesController extends Controller {
 	 */
 	public function index($id)
 	{
-		return "'Showing the vehicles of $id'";
-		 	}
+		$maker = Maker::find($id);
+
+		if(!$maker)
+		{
+			return response()->json(['message'=> 'This maker does not exist', 'code' => 404], 404);
+		}
+
+		return response()->json(['data'=> $maker->vehicles], 200);
+	}
+
 
 
 	/**
@@ -34,11 +45,25 @@ class MakerVehiclesController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function show($id)
+	public function show($id, $vehicleId)
 	{
-		//
-	}
+		$maker = Maker::find($id);
 
+		if(!$maker)
+		{
+			return response()->json(['message'=> 'This maker does not exist', 'code' => 404], 404);
+		}
+
+		$vehicle = $maker->vehicles->find($vehicleId);
+
+		if(!$vehicle)
+		{
+			return response()->json(['message'=> 'This vehicle does not exist for this maker', 'code' => 404], 404);
+
+		}
+
+		return response()->json(['data'=> $maker->vehicles->find($vehicleId)], 200);
+	}
 	/**
 	 * Update the specified resource in storage.
 	 *
