@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers;
+ <?php namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -11,6 +11,11 @@ use App\Vehicle;
 use App\Http\Requests\CreateMakerRequest;
 
 class MakerController extends Controller {
+	
+	// public function __construct()
+	// {
+	// 	$this->middleware('auth.basic');
+	// }
 
 	/**
 	 * Display a listing of the resource.
