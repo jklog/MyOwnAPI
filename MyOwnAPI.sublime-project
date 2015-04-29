@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/Applications/MAMP/htdocs/finals/material-v1.2/material/dist"
 		}
 	]
 }
