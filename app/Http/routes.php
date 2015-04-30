@@ -13,6 +13,12 @@
 
 // Route::get('/{name?}', 'MyController@index');
 
+Route::get('/hw', function()
+{
+    return 'Hello World';
+});
+
+
 Route::resource('makers', 'MakerController', ['except' => ['create', 'edit' ]]);
 
 Route::resource('vehicles', 'VehicleController', ['only' => ['index', 'show' ]]);
