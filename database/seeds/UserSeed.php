@@ -16,10 +16,13 @@ class UserSeed extends Seeder {
   public function run()
   {
     User::create
-    ([
+    (
+      [
       'email' => 'jklog@att.net',
       'password' => Hash::make('moovix2145')
-      ]);
+      ]
+
+      );
   }
 
 }
