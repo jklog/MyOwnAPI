@@ -11,12 +11,19 @@
 |
 */
 
+Route::get('/hi', 'MyController@index');
+
 // Route::get('/{name?}', 'MyController@index');
 
-Route::get('/hw', function()
-{
-    return 'Hello World';
-});
+// Route::get('/hw', function()
+// {
+//     return 'Hello World';
+// });
+
+// Route::get('/hi', function()
+// {
+//     return view('hi');
+// });
 
 
 Route::resource('makers', 'MakerController', ['except' => ['create', 'edit' ]]);
