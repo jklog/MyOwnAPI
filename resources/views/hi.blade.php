@@ -17,14 +17,19 @@
 
 //$string = new HttpRequest('http://localhost.local/sample.json', HttpRequest::getUrl);
 
-// $string =  Request::input("http://localhost.local/sample.json");
+// $json =  Request::input("http://localhost.local/samples.json");
 
 
 // $string =  Request::input("http://localhost.local/sample.json");
 
-$json = json_decode(file_get_contents('http://myownapi.local/makers/3/vehicles'), true);
+//$json = json_decode(file_get_contents('http://myownapi.local/makers/3/vehicles'), true);
 
-//$json = json_decode(file_get_contents('http://www.biocatalogue.org/tags.json?limit=10'), true);
+
+
+ $apiString = json_decode(file_get_contents('http://l5api.local/v1/sample/'), true);
+
+
+// $json = json_decode(file_get_contents('http://www.biocatalogue.org/search.json?q=ebi'), true);
 
 // $json = json_decode(file_get_contents('https://api.twitter.com/1.1/followers/ids.json
 // '), true);
@@ -33,7 +38,11 @@ $json = json_decode(file_get_contents('http://myownapi.local/makers/3/vehicles')
 
 //http://www.biocatalogue.org/search.json?q=ebi
 
-// $json = file_get_contents('http://localhost.local/sample.json');
+// $file = file_get_contents('http://localhost.local/tbl_transactions.json');
+// $json = json_encode($file);
+
+//$json = json_encode(file_get_contents('http://localhost.local/tbl_transactions.json'), true);
+$json = json_decode(file_get_contents('http://myownapi.local/makers/3/vehicles'), true);
 
 
 // $encoded = base64_encode($json);
@@ -42,16 +51,23 @@ $json = json_decode(file_get_contents('http://myownapi.local/makers/3/vehicles')
 
 // $decoded = base64_decode(base64_encode($string));
 
+echo " <b>print_r from hi.blade.php</b>" .'<br/>========================<br/>';
+print_r($apiString);
+
+echo '<br/><br/>';
+
+
 //echo $bicoded .'<br/>';
-echo "<b>var_dump() from hi.blade.php</b>" .'<br/><br/>';
+echo "<b>var_dump() from hi.blade.php</b>" .'<br/>========================<br/>';
 // echo "decoded string: <br/>". $decoded.'<br/><br/>';
 var_dump($json);
 
 echo '<br/><br/>';
+echo '========================<br/>'. '<b>EOF var_dump</b>';
 
-echo " <b>print_r from hi.blade.php</b>" .'<br/><br/>';
 
-print_r($json);
+
+// echo $json;
 
 // echo "encoded string: <br/>". $encoded .'<br/><br/>';
 
