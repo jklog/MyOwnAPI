@@ -103,13 +103,13 @@ class MakerVehiclesController extends Controller {
 			{
 				return response()->json(['message'=> 'This vehicle does not exist', 'code' => 404], 404);
 			}
-
+			$serie = $request->get('serie');
 			$color = $request->get('color');
 			$power = $request->get('power');
 			$capacity = $request->get('capacity');
 			$speed = $request->get('speed');
 
-
+			$serie->serie = $serie;
 			$vehicle->color = $color;
 			$vehicle->power = $power;
 			$vehicle->capacity = $capacity;

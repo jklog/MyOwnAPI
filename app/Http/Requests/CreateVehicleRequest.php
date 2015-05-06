@@ -22,6 +22,7 @@ class CreateVehicleRequest extends Request {
 	public function rules()
 	{
 		return [
+			'serie' => 'required',
 			'color' => 'required',
 			'power' => 'required',
 			'capacity' => 'required',

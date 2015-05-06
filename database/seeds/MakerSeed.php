@@ -4,8 +4,12 @@ use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
 use App\Maker;
 use Faker\Factory as Faker;
+// use Faker\Provider\PhoneNumber as Faker;
 
 class MakerSeed  extends Seeder {
+
+//  $faker = new Faker\Generator();
+  
 
   /**
    * Run the database seeds.
@@ -16,14 +20,16 @@ class MakerSeed  extends Seeder {
   {
     $faker = Faker::create();
 
-    for($i=0; $i <6; $i++)
+
+    for($i=0; $i <20; $i++)
     {
 
 
     Maker::create
       ([
-      'name'=> $faker->word(),
-      'phone'=>$faker->randomNumber(7)
+
+      'name'=> $faker->name($gender = null|'male'|'female'),
+      'phone'=>$faker->phoneNumber()
 
       ]);
     }
