@@ -15,21 +15,16 @@ class VehicleSeed extends Seeder {
   public function run()
   {
     $faker = Faker::create();
-
     for($i=0; $i <30; $i++)
     {
-
-
     Vehicle::create 
       ([
       'color'=> $faker->safeColorName(),
       'power'=>$faker->randomNumber(),
       'capacity'=>$faker->randomFloat(),
       'speed'=>$faker->randomFloat(),
-      'maker_id'=>$faker->numberBetween(1,5)
+      'maker_id'=>$faker->numberBetween(1,6)
       ]);
     }
-
   }
-
 }

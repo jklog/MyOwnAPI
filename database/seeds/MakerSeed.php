@@ -7,10 +7,7 @@ use Faker\Factory as Faker;
 // use Faker\Provider\PhoneNumber as Faker;
 
 class MakerSeed  extends Seeder {
-
-//  $faker = new Faker\Generator();
   
-
   /**
    * Run the database seeds.
    *
@@ -19,21 +16,13 @@ class MakerSeed  extends Seeder {
   public function run()
   {
     $faker = Faker::create();
-
-
     for($i=0; $i <20; $i++)
     {
-
-
     Maker::create
       ([
-
       'name'=> $faker->name($gender = null|'male'|'female'),
-      'phone'=>$faker->phoneNumber()
-
+      'phone'=>$faker->randomNumber(7)
       ]);
     }
-
   }
-
 }

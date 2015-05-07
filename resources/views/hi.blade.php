@@ -1,86 +1,143 @@
-{{-- <!DOCTYPE html>
-<html lang="en">
-<html>
-<head>
-  <title>Hi Document</title>
-</head>
-<body>
-    
-    <h1>Hello {{ $name }}</h1>
+@extends('app')
 
-    
+@section('content')
 
- </body>
-</html> --}}
+<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 
-<?php // base64_encode()/base64_decode() example
+<style>
+  body {
+    margin: 10;
+    padding: 10;
+    width: 85%;
+    height: 100%;
+    color: #9f9f9f;
+/*    display: table;*/
+    font-weight: 100;
+    font-family: 'Lato';
+  }
 
-//$string = new HttpRequest('http://localhost.local/sample.json', HttpRequest::getUrl);
+  .container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+  }
 
-// $json =  Request::input("http://localhost.local/samples.json");
+  .content {
+    text-align: center;
+    display: inline-block;
+  }
+
+  .title {
+    font-size: 96px;
+    margin-bottom: 40px;
+  }
+
+  .quote {
+    font-size: 24px;
+  }
+</style>
 
 
-// $string =  Request::input("http://localhost.local/sample.json");
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="panel panel-default">
+        <div class="panel-heading">home panel heading</div>
 
-$apiString = json_decode(file_get_contents('http://myownapi.local/makers/3/vehicles'), true);
+        <div class="panel-body">
+          <h2>API / UPC  Demo</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<?php
 
+$file = 'http://localhost.local/tbl_transactions.json';
+$qry = 'http://myownapi.local/makers/10/vehicles';
+$nl = '<br/>';
+$break = '<br/>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br/>';
+$upc = '01234567890';
+$str = $upc;
 
- //$apiString = json_decode(file_get_contents('http://l5api.local/v1/sample/'), true);
+function UPC_checkdigit($str){ 
+    if(!preg_match('/^[0-9]{11,12}$/',$str))return; 
+    for($i=0; $i<=10; $i++){ 
+        $digit+= $str[$i] * (!fmod($i,2) ? 3 : 1); 
+    } 
+    $digit=substr(500-$digit,-1); 
+    if(strlen($str)==12){ 
+        return $digit==substr($str,-1); 
+    }else{ 
+        return $digit; 
+    } 
+}
 
+echo '<b>' . $str . genChkDgt("$str") . '</b>';
+echo $nl ;
+echo 'UPC_checkdigit';
+echo $break;
 
-// $json = json_decode(file_get_contents('http://www.biocatalogue.org/search.json?q=ebi'), true);
+function genChkDgt($upc_code){
+    $odd_total  = 0;
+    $even_total = 0;
+ 
+    for($i=0; $i<11; $i++)
+    {
+        if((($i+1)%2) == 0) {
+            /* Sum even digits */
+            $even_total += $upc_code[$i];
+        } else {
+            /* Sum odd digits */
+            $odd_total += $upc_code[$i];
+        }
+    }
+ 
+    $sum = (3 * $odd_total) + $even_total;
+ 
+    /* Get the remainder MOD 10*/
+    $check_digit = $sum % 10;
+ 
+    /* If the result is not zero, subtract the result from ten. */
+    return ($check_digit > 0) ? 10 - $check_digit : $check_digit;
+}
 
-// $json = json_decode(file_get_contents('https://api.twitter.com/1.1/followers/ids.json
-// '), true);
+echo  '<b>' . $upc . genChkDgt("$upc") . '</b>';
+echo $nl ;
+echo 'genChkDgt';
 
+echo $break;
 
+$apiString = json_decode(file_get_contents($qry), true);
 
-//http://www.biocatalogue.org/search.json?q=ebi
-
-////////////////////$json = json_decode(file_get_contents('http://localhost.local/tbl_transactions.json'), true);
-// $json = json_encode($file);
-
-$json = file_get_contents('http://localhost.local/tbl_transactions.json');
-//$json = json_decode(file_get_contents('http://myownapi.local/makers/3/vehicles'), true);
-
+$json = file_get_contents($file);
 
 // $encoded = base64_encode($json);
 // $decoded = base64_decode($encoded);
-// $bicoded = base64_encode($decoded);
-
 // $decoded = base64_decode(base64_encode($string));
 
-echo " <b>'print_r' from 'http://myownapi.local/makers/1/vehicles'</b>" .'<br/>========================<br/>';
+echo " <b>'print_r' from $qry</b>" .$break;
 print_r($apiString);
 
-echo '<br/><br/>';
+echo $break;
 
-echo " <b>'dd' from 'http://myownapi.local/makers/1/vehicles'</b>" .'<br/>========================<br/>';
+
+echo " <b>'dd' from $qry</b>" .$break;
 
 dd($apiString);
 
+echo '<br/>' .$break;
 
-echo '<br/>' .'<br/>========================<br/>';
-
-
-//echo $bicoded .'<br/>';
-echo "<b>var_dump() from 'http://localhost.local/tbl_transactions.json'</b>" .'<br/>========================<br/>';
+echo "<b>var_dump() from $file</b>" .$break;
 // echo "decoded string: <br/>". $decoded.'<br/><br/>';
 
 return dd($json);
 
 echo '<br/><br/>';
-echo '========================<br/>'. '<b>EOF var_dump</b>';
-
-
+echo $break. '<b>EOF var_dump</b>';
 
 // echo $json;
-
 // echo "encoded string: <br/>". $encoded .'<br/><br/>';
-
-
-
-
-
 ?>
+@endsection
