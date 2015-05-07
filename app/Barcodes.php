@@ -1,4 +1,7 @@
-<?php 
+<?php namespace App;
+
+class Barcodes extends Model {
+
 
 function ean13_checkdigit($digits){
     //first change digits to a string so that we can access individual numbers
@@ -60,4 +63,4 @@ function itf_checkdigit($code){
   return(code + ((10 - sum % 10) % 10).toString());
 }
 
-?>
+}

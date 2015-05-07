@@ -84,7 +84,7 @@ echo $break;
 <?php
 
 $file = 'http://localhost.local/tbl_transactions.json';
-$qry = 'http://myownapi.local/makers/11/vehicles';
+$qry = 'http://myownapi.local/makers/1/vehicles';
 $nl = '<br/>';
 $break = '<hr/>';
 
@@ -121,20 +121,19 @@ echo  '<b>' . $upc . upc_checkdigit("$upc") . '</b>';
 echo $nl ;
 echo 'upc_checkdigit';
 echo $break;
-////////////////
-?>
 
 
-<?php
 $nl = '<br/>';
 $break = '<hr/>';
 
+/////////////////////////////////////////////
+
+// $gtin = '01004460030520'; 
+// $code = $gtin;
 
 
-$gtin = '01004460030520'; 
-$code = $gtin;
 
-// function computeMod10($code){
+// function itf_checkdigit($code){
 //   var i, 
 //   toPart1 = code.length % 2;
 //   var n1 = 0, sum = 0;
@@ -153,26 +152,25 @@ $code = $gtin;
 //   return(code + ((10 - sum % 10) % 10).toString());
 // }
 
-// echo  '<b>' . $gtin . computeMod10("$code") . '</b>';
-// echo $nl ;
-// echo 'computeMod10';
+// itf_checkdigit($code);
+
+// echo  '<b>' . $gtin . itf_checkdigit("$code") . '</b>';
+
+echo $nl ;
+echo 'itf_checkdigit';
 echo $break;
 
-
+/////////////////////////////////////////////
 ?>
-
-
 
 <div class="panel-body">
   <h3>API examples</h3>
-
 
 </div>
 
 <?php
 
 $apiString = json_decode(file_get_contents($qry), true);
-
 $json = file_get_contents($file);
 
 // $encoded = base64_encode($json);
@@ -183,7 +181,6 @@ echo " <b>'print_r' from $qry</b>" .$break;
 print_r($apiString);
 
 echo $break;
-
 
 echo " <b>'dd' from $qry</b>" .$break;
 
@@ -201,7 +198,6 @@ echo $break. '<b>EOF var_dump</b>';
 
 // echo $json;
 // echo "encoded string: <br/>". $encoded .'<br/><br/>';
-
 
 ?>
 @endsection
