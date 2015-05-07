@@ -9,6 +9,12 @@
 		},
 		{
 			"path": "/Applications/MAMP/htdocs/finals/laravel-5-api-boilerplate"
+		},
+		{
+			"path": "/Applications/MAMP/htdocs/finals/mini"
+		},
+		{
+			"path": "/Applications/MAMP/htdocs/finals/barcode-master"
 		}
 	]
 }

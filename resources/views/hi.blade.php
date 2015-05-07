@@ -11,27 +11,23 @@
     width: 85%;
     height: 100%;
     color: #9f9f9f;
-/*    display: table;*/
+    display: table;
     font-weight: 100;
     font-family: 'Lato';
   }
-
   .container {
     text-align: center;
-    display: table-cell;
+    display: table-caption;
     vertical-align: middle;
   }
-
   .content {
     text-align: center;
     display: inline-block;
   }
-
   .title {
     font-size: 96px;
     margin-bottom: 40px;
   }
-
   .quote {
     font-size: 24px;
   }
@@ -43,43 +39,61 @@
     <div class="col-md-10 col-md-offset-1">
       <div class="panel panel-default">
         <div class="panel-heading">home panel heading</div>
-
         <div class="panel-body">
-          <h2>API / UPC  Demo</h2>
+          <h2>Scratch Pad</h2>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<div class="panel-body">
+  <h3>UPC examples</h3>
+<?php
+
+$break = '<hr/>';
+// Restrict to 12 numeric chars
+$ean = '012345678901';
+$string = $ean;
+$nl = '<br/>';
+
+/////////////////////////////////////////
+function ean13_checkdigit($digits){
+// first change digits to a string so that we can access individual numbers
+$digits =(string)$digits;
+// 1. Add the values of the digits in the even-numbered positions: 2, 4, 6, etc.
+$even_sum = $digits{1} + $digits{3} + $digits{5} + $digits{7} + $digits{9} + $digits{11};
+// 2. Multiply this result by 3.
+$even_sum_three = $even_sum * 3;
+// 3. Add the values of the digits in the odd-numbered positions: 1, 3, 5, etc.
+$odd_sum = $digits{0} + $digits{2} + $digits{4} + $digits{6} + $digits{8} + $digits{10};
+// 4. Sum the results of steps 2 and 3.
+$total_sum = $even_sum_three + $odd_sum;
+// 5. The check character is the smallest number which, when added to the result in step 4,  produces a multiple of 10.
+$next_ten = (ceil($total_sum/10))*10;
+$check_digit = $next_ten - $total_sum;
+return $digits . $check_digit;
+}
+echo  '<b>' . ean13_checkdigit("$ean") . '</b>';
+echo $nl ;
+echo 'ean13_checkdigit';
+echo $break;
+////////////////////////////////////////////
+?>
+</div>
 <?php
 
 $file = 'http://localhost.local/tbl_transactions.json';
-$qry = 'http://myownapi.local/makers/10/vehicles';
+$qry = 'http://myownapi.local/makers/11/vehicles';
 $nl = '<br/>';
-$break = '<br/>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br/>';
-$upc = '01234567890';
-$str = $upc;
+$break = '<hr/>';
 
-function UPC_checkdigit($str){ 
-    if(!preg_match('/^[0-9]{11,12}$/',$str))return; 
-    for($i=0; $i<=10; $i++){ 
-        $digit+= $str[$i] * (!fmod($i,2) ? 3 : 1); 
-    } 
-    $digit=substr(500-$digit,-1); 
-    if(strlen($str)==12){ 
-        return $digit==substr($str,-1); 
-    }else{ 
-        return $digit; 
-    } 
-}
+// Restrict to 11 numeric chars
+$upc = '01234567890';  
 
-echo '<b>' . $str . genChkDgt("$str") . '</b>';
-echo $nl ;
-echo 'UPC_checkdigit';
-echo $break;
 
-function genChkDgt($upc_code){
+//longer alternative
+function upc_checkdigit($upc_code){
     $odd_total  = 0;
     $even_total = 0;
  
@@ -103,11 +117,59 @@ function genChkDgt($upc_code){
     return ($check_digit > 0) ? 10 - $check_digit : $check_digit;
 }
 
-echo  '<b>' . $upc . genChkDgt("$upc") . '</b>';
+echo  '<b>' . $upc . upc_checkdigit("$upc") . '</b>';
 echo $nl ;
-echo 'genChkDgt';
-
+echo 'upc_checkdigit';
 echo $break;
+////////////////
+?>
+
+
+<?php
+$nl = '<br/>';
+$break = '<hr/>';
+
+
+
+$gtin = '01004460030520'; 
+$code = $gtin;
+
+// function computeMod10($code){
+//   var i, 
+//   toPart1 = code.length % 2;
+//   var n1 = 0, sum = 0;
+//   for(i=0; i<code.length; i++){
+//     if (toPart1) {
+//       n1 = 10 * n1 + Barcode.intval(code.charAt(i));
+//     } else {
+//       sum += Barcode.intval(code.charAt(i));
+//     }
+//     toPart1 = ! toPart1;
+//   }
+//   var s1 = (2 * n1).toString();
+//   for(i=0; i<s1.length; i++){
+//     sum += Barcode.intval(s1.charAt(i));
+//   }
+//   return(code + ((10 - sum % 10) % 10).toString());
+// }
+
+// echo  '<b>' . $gtin . computeMod10("$code") . '</b>';
+// echo $nl ;
+// echo 'computeMod10';
+echo $break;
+
+
+?>
+
+
+
+<div class="panel-body">
+  <h3>API examples</h3>
+
+
+</div>
+
+<?php
 
 $apiString = json_decode(file_get_contents($qry), true);
 
@@ -139,5 +201,9 @@ echo $break. '<b>EOF var_dump</b>';
 
 // echo $json;
 // echo "encoded string: <br/>". $encoded .'<br/><br/>';
+
+
 ?>
 @endsection
+
+
