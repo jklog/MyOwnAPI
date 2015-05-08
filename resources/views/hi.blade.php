@@ -147,40 +147,137 @@ $break = '<hr/>';
 
 // include('php-barcode.php');
 
-$gtin = '01004460030520'; 
+// $gtin = '10384478861804';
+
+$gtin = '1000446001111'; 
+
 $code = $gtin;
 
-     // function getDigit($code, $crc, $type){
-     //    $code = self::compute($code, $crc, $type);
-     //    if ($code == '') return($code);
-     //    $result = '';
+echo DNS1D::getBarcodeHTML($gtin, "I25");
+//echo $nl ;
+echo 'I25';
+echo $break;
+echo DNS1D::getBarcodeHTML($gtin, "I25+");
+//echo $nl ;
+echo 'I25+';
+echo $break;
+/////////////////////////////////////////
 
-     //    if ($type == 'int25') { // Interleaved 2 of 5
-     //        // start
-     //        $result .= '1010';
+// MOD10 //
 
-     //        // digits + CRC
-     //        $end = strlen($code) / 2;
-     //        for($i=0; $i<$end; $i++){
-     //            $c1 = $code[2*$i];
-     //            $c2 = $code[2*$i+1];
-     //            for($j=0; $j<5; $j++){
-     //                $result .= '1';
-     //                if (self::$encoding[$c1][$j] == 'W') $result .= '1';
-     //                $result .= '0';
-     //                if (self::$encoding[$c2][$j] == 'W') $result .= '0';
-     //            }
-     //        }
+/////////////////////////////////////////
 
-// echo  '<b>' . $gtin . getDigit($code) . '</b>';
+/***
+ * Calculates the Luhn checksum.
+ * @param $s (string) the string to check.,
+ * @return mixed FALSE if $s does not consists only of decimal digits, otherwise the luhn checksum is returned.
+ */
+function luhn_calc($s) {  
+  settype($s, 'string');
+  if (!ctype_digit($s)) return false;
+  $n = 0;
+  for ($i = 0; $i < strlen($s); $i++) {
+    $t = substr($s, $i, 1) * (2 - ($i & 1));
+    if ($t > 9) $t -= 9;
+    $n += $t;
+  }
+  return (10 - ($n % 10)) % 10;
+}
 
+/***
+ * Determines whether the specified string is a valid luhn number.
+ * @param $s (string) a luhn number to validate
+ * @return boolean TRUE if the specified string is a valid luhn number; FALSE otherwise.
+ */
+function luhn_check($s) {
+  settype($s, 'string');
+  $n = luhn_calc(substr($s, 0, -1));
+  if ($n === false) return false;
+  return $n == substr($s, -1);
+}
+
+/***
+ * Appends the Luhn checksum to the specified string.
+ * @param $s (string) the string to calculate the Luhn checksum.
+ * @return mixed FALSE if $s does not consists only of decimal digits, otherwise the concactated string of $s and the Luhn checksum is returned.
+ */
+function luhn_create($s) {
+  settype($s, 'string');
+  if (!ctype_digit($s)) return false;
+  return $s . luhn_calc($s);
+}
+
+echo "output of luhn_calc: ";
+echo luhn_calc($gtin);
 echo $nl ;
-echo 'itf_checkdigit';
+
+echo "output of luhn_check: ";
+echo luhn_check($gtin);
+echo $nl ;
+
+echo "output of luhn_create: ";
+echo luhn_create($gtin);
+echo $nl ;
+echo '<h3>luhn funcs</h3>';
 echo $break;
 
 /////////////////////////////////////////////
-?>
 
+/**
+ * CALCULATE LUHN
+ * ==============
+ * Calculates the Luhn digit for the passed string, then returns the
+ * full sting.
+ *
+ *       var delta = new Array (0,1,2,3,4,-4,-3,-2,-1,0);
+ *
+ *        for (i=Luhn.length-1; i>=0; i-=2 )
+ *        {
+ *               var deltaIndex = parseInt(Luhn.substring(i,i+1));
+ *               var deltaValue = delta[deltaIndex];
+ *               sum += deltaValue;
+ *        }
+ *
+ *
+ * @param type $input
+ * @return type
+ */
+ function calculateLuhn($input)  {
+    $sum = 0;
+    $doubleIt = true ;
+
+    $delta = Array (0, 2, 4, 6, 8, 1, 3, 5, 7, 9) ;
+
+    for ($ind = strlen($input)-1; $ind >= 0; $ind--) {
+        $digit = intval(substr($input, $ind, 1)) ;
+        if ($doubleIt) {
+            $sum += $delta[$digit] ;
+        } else {
+            $sum += $digit ;
+        }
+        $doubleIt = !$doubleIt ;
+    }
+
+    $mod10 = $sum % 10;
+    $mod10 = 10 - $mod10;
+    if ($mod10==10) {
+        $mod10=0;
+    }
+    return $input . $mod10 ;
+}
+echo "output of calculateLuhn: ";
+echo calculateLuhn($gtin);
+echo $nl ;
+echo '<h3>calculateLuhn</h3>';
+echo $break;
+echo $nl;
+##################################
+
+
+
+##################################
+echo $nl;
+?>
 <div class="panel-body">
   <h3>API examples</h3>
 

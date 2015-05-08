@@ -145,7 +145,8 @@ return [
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
 		'Tymon\JWTAuth\Providers\JWTAuthServiceProvider',
-		'Dinesh\Barcode\BarcodeServiceProvider'
+		'Dinesh\Barcode\BarcodeServiceProvider',
+		'Milon\Barcode\BarcodeServiceProvider'
 
 	],
 
@@ -195,8 +196,8 @@ return [
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
 		'JWTAuth' => 'Tymon\JWTAuth\Facades\JWTAuth',
-		'DNS1D' => 'Dinesh\Barcode\Facades\DNS1DFacade',
-		'DNS2D' => 'Dinesh\Barcode\Facades\DNS2DFacade',
+		'DNS1D' => 'Milon\Barcode\Facades\DNS1DFacade',
+		'DNS2D' => 'Milon\Barcode\Facades\DNS2DFacade',
 
 
 	],
