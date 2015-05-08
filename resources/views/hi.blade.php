@@ -52,6 +52,12 @@
 <?php
 
 $break = '<hr/>';
+
+/////////////////////////////////////////
+
+// EAN //
+
+/////////////////////////////////////////
 // Restrict to 12 numeric chars
 $ean = '012345678901';
 $string = $ean;
@@ -78,9 +84,11 @@ echo  '<b>' . ean13_checkdigit("$ean") . '</b>';
 echo $nl ;
 echo 'ean13_checkdigit';
 echo $break;
-////////////////////////////////////////////
+/////////////////////////////////////////
+/////////////////////////////////////////
 ?>
 </div>
+
 <?php
 
 $file = 'http://localhost.local/tbl_transactions.json';
@@ -88,6 +96,11 @@ $qry = 'http://myownapi.local/makers/1/vehicles';
 $nl = '<br/>';
 $break = '<hr/>';
 
+/////////////////////////////////////////
+
+// UPC //
+
+/////////////////////////////////////////
 // Restrict to 11 numeric chars
 $upc = '01234567890';  
 
@@ -126,35 +139,40 @@ echo $break;
 $nl = '<br/>';
 $break = '<hr/>';
 
-/////////////////////////////////////////////
+/////////////////////////////////////////
 
-// $gtin = '01004460030520'; 
-// $code = $gtin;
+// ITF //
 
+/////////////////////////////////////////
 
+// include('php-barcode.php');
 
-// function itf_checkdigit($code){
-//   var i, 
-//   toPart1 = code.length % 2;
-//   var n1 = 0, sum = 0;
-//   for(i=0; i<code.length; i++){
-//     if (toPart1) {
-//       n1 = 10 * n1 + Barcode.intval(code.charAt(i));
-//     } else {
-//       sum += Barcode.intval(code.charAt(i));
-//     }
-//     toPart1 = ! toPart1;
-//   }
-//   var s1 = (2 * n1).toString();
-//   for(i=0; i<s1.length; i++){
-//     sum += Barcode.intval(s1.charAt(i));
-//   }
-//   return(code + ((10 - sum % 10) % 10).toString());
-// }
+$gtin = '01004460030520'; 
+$code = $gtin;
 
-// itf_checkdigit($code);
+     // function getDigit($code, $crc, $type){
+     //    $code = self::compute($code, $crc, $type);
+     //    if ($code == '') return($code);
+     //    $result = '';
 
-// echo  '<b>' . $gtin . itf_checkdigit("$code") . '</b>';
+     //    if ($type == 'int25') { // Interleaved 2 of 5
+     //        // start
+     //        $result .= '1010';
+
+     //        // digits + CRC
+     //        $end = strlen($code) / 2;
+     //        for($i=0; $i<$end; $i++){
+     //            $c1 = $code[2*$i];
+     //            $c2 = $code[2*$i+1];
+     //            for($j=0; $j<5; $j++){
+     //                $result .= '1';
+     //                if (self::$encoding[$c1][$j] == 'W') $result .= '1';
+     //                $result .= '0';
+     //                if (self::$encoding[$c2][$j] == 'W') $result .= '0';
+     //            }
+     //        }
+
+// echo  '<b>' . $gtin . getDigit($code) . '</b>';
 
 echo $nl ;
 echo 'itf_checkdigit';
@@ -198,8 +216,5 @@ echo $break. '<b>EOF var_dump</b>';
 
 // echo $json;
 // echo "encoded string: <br/>". $encoded .'<br/><br/>';
-
 ?>
 @endsection
-
-
