@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "/Applications/MAMP/htdocs/finals/material-v1.2/material/dist"
+		},
+		{
+			"path": "/Applications/MAMP/htdocs/finals/laravel-5-api-boilerplate"
+		},
+		{
+			"path": "/Applications/MAMP/htdocs/finals/mini"
+		}
+	] 
+}
