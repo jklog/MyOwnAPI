@@ -4,8 +4,82 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fd967874ae79b6df624861cd19b879db",
+    "hash": "b56cc24abb765ab327768217537d235c",
     "packages": [
+        {
+            "name": "a2way/laravel-app-settings",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/a2way-com/laravel-app-settings.git",
+                "reference": "9c69588d558dbf44f7a4cd08c8bf94ce3109eace"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/a2way-com/laravel-app-settings/zipball/9c69588d558dbf44f7a4cd08c8bf94ce3109eace",
+                "reference": "9c69588d558dbf44f7a4cd08c8bf94ce3109eace",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "A2Way\\LaravelAppSettings\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Supun Budhajeewa",
+                    "email": "budhajeewa@gmail.com"
+                }
+            ],
+            "description": "Save data in a table called \"app_settings\" and retrieve them.",
+            "time": "2015-05-07 06:19:34"
+        },
+        {
+            "name": "a2way/laravel-tenant-migrate",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/a2way-com/laravel-tenant-migrate.git",
+                "reference": "921234c3f9ebe00a8a73440598eefe6def7950f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/a2way-com/laravel-tenant-migrate/zipball/921234c3f9ebe00a8a73440598eefe6def7950f7",
+                "reference": "921234c3f9ebe00a8a73440598eefe6def7950f7",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": ">=4.2",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/migrations"
+                ],
+                "psr-0": {
+                    "A2way\\LaravelTenantMigrate\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Supun Budhajeewa",
+                    "email": "budhajeewa@gmail.com"
+                }
+            ],
+            "description": "A2Way Laravel Tenant Migrate",
+            "keywords": [
+                "a2way",
+                "laravel"
+            ],
+            "time": "2015-05-09 03:14:49"
+        },
         {
             "name": "bitgrave/barcode-bundle",
             "version": "0.9.7",
@@ -654,16 +728,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.0.28",
+            "version": "5.0.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "06a09429322cf53e5bd4587db1060f02a291562e"
+                "reference": "c7ffbf1fd4895ac4cdac551265d635d995346d97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/06a09429322cf53e5bd4587db1060f02a291562e",
-                "reference": "06a09429322cf53e5bd4587db1060f02a291562e",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/c7ffbf1fd4895ac4cdac551265d635d995346d97",
+                "reference": "c7ffbf1fd4895ac4cdac551265d635d995346d97",
                 "shasum": ""
             },
             "require": {
@@ -776,7 +850,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-04-21 01:44:32"
+            "time": "2015-05-08 19:11:13"
         },
         {
             "name": "league/flysystem",
@@ -1079,21 +1153,21 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.18.0",
+            "version": "1.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "99e2f69f7bdc2cc4334b2d00f1e0ba450623ea36"
+                "reference": "68868e0b02d2d803d0052a59d4e5003cccf87320"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/99e2f69f7bdc2cc4334b2d00f1e0ba450623ea36",
-                "reference": "99e2f69f7bdc2cc4334b2d00f1e0ba450623ea36",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/68868e0b02d2d803d0052a59d4e5003cccf87320",
+                "reference": "68868e0b02d2d803d0052a59d4e5003cccf87320",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0",
-                "symfony/translation": "2.6.*"
+                "symfony/translation": "~2.6"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.0"
@@ -1122,7 +1196,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2015-03-26 03:05:57"
+            "time": "2015-05-09 03:23:44"
         },
         {
             "name": "nikic/php-parser",

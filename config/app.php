@@ -146,7 +146,9 @@ return [
 		'App\Providers\RouteServiceProvider',
 		'Tymon\JWTAuth\Providers\JWTAuthServiceProvider',
 		'Dinesh\Barcode\BarcodeServiceProvider',
-		'Milon\Barcode\BarcodeServiceProvider'
+		'Milon\Barcode\BarcodeServiceProvider',
+		'A2Way\LaravelAppSettings\LaravelAppSettingsServiceProvider',
+		'A2way\LaravelTenantMigrate\LaravelTenantMigrateServiceProvider',
 
 	],
 
@@ -198,7 +200,6 @@ return [
 		'JWTAuth' => 'Tymon\JWTAuth\Facades\JWTAuth',
 		'DNS1D' => 'Milon\Barcode\Facades\DNS1DFacade',
 		'DNS2D' => 'Milon\Barcode\Facades\DNS2DFacade',
-
 
 	],
 
