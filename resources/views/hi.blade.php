@@ -51,6 +51,9 @@
   <h3>UPC examples</h3>
 <?php
 use Carbon\Carbon;
+// use Monolog\Logger;
+// use Clockwork\Support;
+// use Clockwork\DataSource;
 
 $visited = Carbon::now();
 $who = 'Jon Krawczuk';
@@ -61,20 +64,39 @@ echo '<p> you are: <b>' . $who .'</b></p>';
 
 // dd($visited);
 
-// $now = Carbon::now();
+$now = Carbon::now();
 // echo $now->toFormattedDateString();
 
 // $page = Hash::make('hi.blade.php');
 
 //adds key:value pair to app_settings table
-A2Way\LaravelAppSettings\AppSettings::set('page', $page);
+A2Way\LaravelAppSettings\AppSettings::set('page', $now);
 A2Way\LaravelAppSettings\AppSettings::set('last-visit', $visited);
 A2Way\LaravelAppSettings\AppSettings::set('user', $who);
-A2Way\LaravelAppSettings\AppSettings::set('user', 'After Display on Screen');
+// A2Way\LaravelAppSettings\AppSettings::set('user', 'After Display on Screen');
 
-
+Log::info(' $page variable set via A2Way with value: '.$page);
+Log::info(' $visited variable set via A2Way with value: '.$visited);
+Log::info(' $who variable set via A2Way with value: '.$page);
 
 /////////////////////////////////////////
+
+// Clockwork::info('info from clockwork');
+Debugbar::info($page);
+Debugbar::error('My Error!');
+Debugbar::warning('My Watch out…');
+Debugbar::addMessage('MyAnother message', 'mylabel');
+
+Debugbar::startMeasure('render','Time for rendering');
+Debugbar::stopMeasure('render');
+Debugbar::addMeasure('now', LARAVEL_START, microtime(true));
+Debugbar::measure('My long operation', function() {
+    // Do something…
+});
+
+/////////////////////////////////////////
+
+
 
 $break = '<hr/>';
 
@@ -210,17 +232,17 @@ echo $break;
 
 echo " <b>'dd' from $qry</b>" .$break;
 
-dd($apiString);
+//  dd($apiString);
 
 echo '<br/>' .$break;
 
-echo "<b>var_dump() from $file</b>" .$break;
-// echo "decoded string: <br/>". $decoded.'<br/><br/>';
+// echo "<b>var_dump() from $file</b>" .$break;
+// // echo "decoded string: <br/>". $decoded.'<br/><br/>';
 
-return dd($json);
+// return dd($json);
 
-echo '<br/><br/>';
-echo $break. '<b>EOF var_dump</b>';
+// echo '<br/><br/>';
+// echo $break. '<b>EOF var_dump</b>';
 
 // echo $json;
 // echo "encoded string: <br/>". $encoded .'<br/><br/>';

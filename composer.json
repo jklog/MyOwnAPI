@@ -15,7 +15,9 @@
 		"druidvav/neko-barcode": "^1.1",
 		"milon/barcode": "^0.5.0",
 		"a2way/laravel-app-settings": "^1.0",
-		"a2way/laravel-tenant-migrate": "1.*"
+		"a2way/laravel-tenant-migrate": "1.*",
+		"itsgoingd/clockwork": "^1.7",
+		"barryvdh/laravel-debugbar": "^2.0"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",

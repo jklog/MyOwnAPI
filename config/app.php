@@ -149,6 +149,8 @@ return [
 		'Milon\Barcode\BarcodeServiceProvider',
 		'A2Way\LaravelAppSettings\LaravelAppSettingsServiceProvider',
 		'A2way\LaravelTenantMigrate\LaravelTenantMigrateServiceProvider',
+		'Clockwork\Support\Laravel\ClockworkServiceProvider',
+		'Barryvdh\Debugbar\ServiceProvider',
 
 	],
 
@@ -197,9 +199,11 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
-		'JWTAuth' => 'Tymon\JWTAuth\Facades\JWTAuth',
-		'DNS1D' => 'Milon\Barcode\Facades\DNS1DFacade',
-		'DNS2D' => 'Milon\Barcode\Facades\DNS2DFacade',
+		'JWTAuth' 	=> 'Tymon\JWTAuth\Facades\JWTAuth',
+		'DNS1D' 	  => 'Milon\Barcode\Facades\DNS1DFacade',
+		'DNS2D' 	  => 'Milon\Barcode\Facades\DNS2DFacade',
+		'Clockwork' => 'Clockwork\Support\Laravel\Facade',
+		'Debugbar' => 'Barryvdh\Debugbar\Facade',
 
 	],
 

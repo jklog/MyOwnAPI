@@ -18,10 +18,21 @@ class HomeController extends Controller {
 	 *
 	 * @return void
 	 */
-	public function __construct()
-	{
-		$this->middleware('auth');
-	}
+	// public function __construct()
+	// {
+	// 	$this->middleware('auth');
+
+	// 	$this->beforeFilter(function()
+	// 	{
+	// 	    Event::fire('clockwork.controller.start');
+	// 	});
+
+	// 	$this->afterFilter(function()
+	// 	{
+	// 	    Event::fire('clockwork.controller.end');
+	// 	});
+
+	// }
 
 	/**
 	 * Show the application dashboard to the user.

@@ -10,12 +10,15 @@ class Kernel extends HttpKernel {
 	 * @var array
 	 */
 	protected $middleware = [
+	
+		'Clockwork\Support\Laravel\ClockworkMiddleware',
 		'Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode',
 		'Illuminate\Cookie\Middleware\EncryptCookies',
 		'Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse',
 		'Illuminate\Session\Middleware\StartSession',
 		'Illuminate\View\Middleware\ShareErrorsFromSession',
 //		'App\Http\Middleware\VerifyCsrfToken',
+
 	];
 
 	/**
@@ -27,6 +30,7 @@ class Kernel extends HttpKernel {
 		'auth' => 'App\Http\Middleware\Authenticate',
 		'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
 		'guest' => 'App\Http\Middleware\RedirectIfAuthenticated',
+
 	];
 
 }
