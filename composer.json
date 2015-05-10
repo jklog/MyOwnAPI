@@ -17,7 +17,8 @@
 		"a2way/laravel-app-settings": "^1.0",
 		"a2way/laravel-tenant-migrate": "1.*",
 		"itsgoingd/clockwork": "^1.7",
-		"barryvdh/laravel-debugbar": "^2.0"
+		"barryvdh/laravel-debugbar": "^2.0",
+		"mitulgolakiya/laravel-api-generator": "^1.3"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",

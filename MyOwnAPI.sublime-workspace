@@ -1,1 +1,1401 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"C",
+				"Clockwork"
+			],
+			[
+				"S",
+				"Storage〔namespace〕"
+			],
+			[
+				"Clo",
+				"Clockwork::info"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"to",
+				"toJson〔function〕"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"bo",
+				"border-width"
+			],
+			[
+				"borde",
+				"border-style"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"rgb",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"rg",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"name",
+				"nameService"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"ng-",
+				"ng-cloak	AngularJS"
+			],
+			[
+				"ng-cl",
+				"ng-cloak	AngularJS"
+			],
+			[
+				"autho",
+				"Author"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"passen",
+				"passengerList"
+			],
+			[
+				"add",
+				"addPassenger"
+			],
+			[
+				"comb",
+				"comboArray2"
+			],
+			[
+				"ne",
+				"new"
+			],
+			[
+				"style",
+				"ng-style	AngularJS"
+			],
+			[
+				"javasc",
+				"javascript"
+			],
+			[
+				"A",
+				"API"
+			],
+			[
+				"the",
+				"theLandmarks"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"E",
+				"ExpressiveDate"
+			],
+			[
+				"reset",
+				"resetcode"
+			],
+			[
+				"a",
+				"text-align"
+			],
+			[
+				"le",
+				"lessonTransformer"
+			],
+			[
+				"Less",
+				"LessonTransformer"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"w",
+				"font-weight"
+			],
+			[
+				"Fa",
+				"Faker"
+			],
+			[
+				"csr",
+				"csrUser"
+			],
+			[
+				"F",
+				"Faker"
+			],
+			[
+				"H",
+				"HelloWorld"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"diffi",
+				"difficultyLevel"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"Data",
+				"dataTables"
+			],
+			[
+				"cr",
+				"create"
+			],
+			[
+				"fu",
+				"fullName"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"lef",
+				"margin-left"
+			],
+			[
+				"top",
+				"text-top"
+			],
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Applications/MAMP/htdocs/finals/mitu/config/app.php",
+			"settings":
+			{
+				"buffer_size": 7461,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/finals/mitu/config/debugbar.php",
+			"settings":
+			{
+				"buffer_size": 6301,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/finals/mitu/resources/views/home.blade.php",
+			"settings":
+			{
+				"buffer_size": 1123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/finals/mitu/resources/views/app.blade.php",
+			"settings":
+			{
+				"buffer_size": 2208,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/finals/mitu/app/Models/Project.php",
+			"settings":
+			{
+				"buffer_size": 295,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/finals/mitu/app/Libraries/Repositories/ProjectRepository.php",
+			"settings":
+			{
+				"buffer_size": 864,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/finals/mitu/config/generator.php",
+			"settings":
+			{
+				"buffer_size": 2119,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"main",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Brand",
+				"Snippet: bs3-navbar-brand"
+			],
+			[
+				"html",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet blade",
+				"Snippet: Blade Select Month"
+			],
+			[
+				"bladr",
+				"Snippet: Blade Form"
+			],
+			[
+				"html5",
+				"Snippet: html-html5skel"
+			],
+			[
+				"bs3",
+				"Snippet: bs3-col-3"
+			],
+			[
+				"snippet blad",
+				"Snippet: Blade Form"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"snippet ht",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"jum",
+				"Snippet: bs3-jumbotron"
+			],
+			[
+				"nav",
+				"Snippet: bs3-navbar-fixed-top"
+			],
+			[
+				"bs3-n",
+				"Snippet: bs3-navbar-brand"
+			],
+			[
+				"bs3-te",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"bo",
+				"Snippet: bs3-media-object"
+			],
+			[
+				"Snippet: ",
+				"Snippet: htmlboiler"
+			],
+			[
+				"snippet h",
+				"Snippet: htmlboiler"
+			],
+			[
+				"snippet: ht",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: htm",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"Snippet: ng-",
+				"Snippet: ng-script-stub"
+			],
+			[
+				"Snippet: st",
+				"Snippet: ng-script-stub"
+			],
+			[
+				"Snippet: ng",
+				"Snippet: ng-script-stub"
+			],
+			[
+				"stub",
+				"Snippet: bs3-input-url"
+			],
+			[
+				"Snippet: script",
+				"Snippet: HTML - Script"
+			],
+			[
+				"Snippet: ht",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"evernote",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mar",
+				"Snippet: Markdown_link_(mdl)"
+			],
+			[
+				"mark",
+				"Snippet: Markdown_header_(mdh3)"
+			],
+			[
+				"markdo",
+				"Snippet: Markdown_header_(mdh1)"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"pa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"everno",
+				"Evernote: List recent notes"
+			],
+			[
+				"eve",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"ever",
+				"Evernote: List recent notes"
+			],
+			[
+				"evr",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"css",
+				"Snippet: bs3-cdn-css"
+			],
+			[
+				"sty",
+				"Snippet: HTML - Stylesheet link"
+			],
+			[
+				"ht",
+				"Snippet: html"
+			],
+			[
+				"htm",
+				"Snippet: htmlboiler"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"evern",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"evernot",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"Pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Laravel ",
+				"Laravel Artisan: Routes"
+			],
+			[
+				"la",
+				"Laravel Artisan: Optimize"
+			],
+			[
+				"g",
+				"Laravel Generate: View"
+			],
+			[
+				"ge",
+				"Laravel Generate: Controller"
+			],
+			[
+				"art",
+				"Laravel Artisan: Session: Table"
+			],
+			[
+				"paca",
+				"Package Control: Install Package"
+			],
+			[
+				"sni",
+				"Snippet: bs3-alert-danger"
+			],
+			[
+				"sn",
+				"Snippet: bs3-navbar-basic"
+			],
+			[
+				"Pa",
+				"Package Control: List Packages"
+			],
+			[
+				"P",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Snippet: Blade Button"
+			],
+			[
+				"snippet",
+				"Snippet: Angular.js"
+			],
+			[
+				"snipp	",
+				"Snippet: Angular.js"
+			],
+			[
+				"snippet:lo",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"pwd",
+			"la down;",
+			"la down",
+			"generate:model",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/app",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/app/Http",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/app/Http/Controllers",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/config",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/resources/views",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/storage/app",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/storage/framework/cache",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/storage/framework/views",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/vendor/dnoegel",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/vendor/itsgoingd",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/vendor/itsgoingd/clockwork",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/vendor/itsgoingd/clockwork/Clockwork",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/vendor/itsgoingd/clockwork/Clockwork/Request",
+		"/Applications/MAMP/htdocs/finals/mitu/app",
+		"/Applications/MAMP/htdocs/finals/mitu/app/Http",
+		"/Applications/MAMP/htdocs/finals/mitu/app/Http/Controllers",
+		"/Applications/MAMP/htdocs/finals/mitu/app/Libraries",
+		"/Applications/MAMP/htdocs/finals/mitu/app/Libraries/Repositories",
+		"/Applications/MAMP/htdocs/finals/mitu/app/Models",
+		"/Applications/MAMP/htdocs/finals/mitu/app/Providers",
+		"/Applications/MAMP/htdocs/finals/mitu/app/Services",
+		"/Applications/MAMP/htdocs/finals/mitu/config",
+		"/Applications/MAMP/htdocs/finals/mitu/database",
+		"/Applications/MAMP/htdocs/finals/mitu/resources",
+		"/Applications/MAMP/htdocs/finals/mitu/resources/views",
+		"/Applications/MAMP/htdocs/finals/mitu/resources/views/projects",
+		"/Applications/MAMP/htdocs/finals/l5am"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/config/debugbar.php",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/composer.json",
+		"/Applications/MAMP/htdocs/finals/mitu/config/app.php",
+		"/Applications/MAMP/htdocs/finals/mitu/.env",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/resources/views/hi.blade.php",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/storage/debugbar/8b662c4041c5cb99cb57fd7e4421f3c5.json",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/app/Http/Controllers/MyController.php",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/config/app.php",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/storage/logs/laravel-2015-05-10.log",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/config/clockwork.php",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/app/Http/Kernel.php",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/app/Console/Kernel.php",
+		"/Applications/MAMP/htdocs/finals/MyOwnAPI/storage/logs/laravel-2015-05-09.log",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/client/views/ui/components.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/client/views/ui/pricing-tables.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/client/styles/material-design-iconic-font/_path.scss",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/client/index.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/dist/index.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/client/scripts/core/app.controller.js",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/client/styles/global/_var.scss",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/client/scripts/table/table.controller.js",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/Build/client/views/header.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/client/views/tables/dynamic.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/client/views/pages/profile.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/client/views/dashboard.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/client/views/header.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/client/views/ui/lists.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/dist/views/ui/lists.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/client/i18n/en.json",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/.bowerrc",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/dist/views/tables/dynamic.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/dist/views/header.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/dist/scripts/app.js",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/dist/i18n/en.json",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/dist/views/sidebar.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/dist/views/dashboard.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/dist/styles/main.css",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/landing/index.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/landing/css/main.css",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/client/favicon.ico",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/dist/views/ui/cards.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/dist/views/ui/pricing-tables.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/landing/scripts/main.js",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/dist/views/pages/profile.html",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/material/client/i18n/ja.json",
+		"/Users/jonkrawczuk/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/finals/material-v1.2/dist/views/pages/invoice.html",
+		"/Applications/MAMP/htdocs/finals/material/codepen_WbpKbJ/index.html",
+		"/Applications/MAMP/htdocs/finals/material/codepen_WbpKbJ/css/style.css",
+		"/Applications/MAMP/htdocs/finals/material/google-polymer-checkboxes-using-css3/index.html",
+		"/Applications/MAMP/htdocs/finals/material/material-design-navbar/css/style.css",
+		"/Applications/MAMP/htdocs/finals/taxi/resources/views/app.blade.php",
+		"/Applications/MAMP/htdocs/finals/taxi/.env",
+		"/Applications/MAMP/htdocs/finals/taxi/config/database.php",
+		"/Applications/MAMP/htdocs/finals/taxi/app/Providers/AppServiceProvider.php",
+		"/Applications/MAMP/htdocs/finals/taxi/composer.json",
+		"/Applications/MAMP/htdocs/finals/taxi/database/seeds/DatabaseSeeder.php",
+		"/Applications/MAMP/htdocs/finals/taxi/database/migrations/2015_04_20_002001_create_quotes_table.php",
+		"/Applications/MAMP/htdocs/finals/taxi/resources/views/quote.blade.php",
+		"/Applications/MAMP/htdocs/finals/taxi/database/seeds/QuoteTableSeeder.php",
+		"/Applications/MAMP/htdocs/finals/taxi/config/app.php",
+		"/Applications/MAMP/htdocs/finals/motivational/.env",
+		"/Applications/MAMP/htdocs/finals/l5-0/.env",
+		"/Applications/MAMP/htdocs/finals/motivational/app/Config/database.php",
+		"/Applications/MAMP/htdocs/finals/motivational/bootstrap/app.php",
+		"/Applications/MAMP/htdocs/finals/service/resources/views/greeeting.php",
+		"/Applications/MAMP/htdocs/finals/service/app/Http/routes.php",
+		"/Applications/MAMP/htdocs/finals/service/public/.htaccess",
+		"/Applications/MAMP/htdocs/finals/rbac/.env",
+		"/Applications/MAMP/htdocs/finals/rbac/config/app.php",
+		"/Applications/MAMP/htdocs/finals/rbac/config/database.php",
+		"/Applications/MAMP/htdocs/finals/l5-0/app/Http/routes.php",
+		"/Applications/MAMP/htdocs/finals/l5-0/config/app.php",
+		"/Applications/MAMP/htdocs/finals/l5-0/resources/views/job.blade.php",
+		"/Applications/MAMP/htdocs/finals/l5-0/resources/views/app.blade.php",
+		"/Applications/MAMP/htdocs/finals/dropzone-4.0.1/upload.php",
+		"/Applications/MAMP/htdocs/finals/dropzone-4.0.1/index.php",
+		"/Applications/MAMP/htdocs/finals/dropzone-4.0.1/ds-test.html",
+		"/Applications/MAMP/htdocs/finals/taxi/bower.json",
+		"/Applications/MAMP/htdocs/finals/taxi/package.json",
+		"/Applications/MAMP/htdocs/test/lovebook/app/config/database.php",
+		"/Applications/MAMP/htdocs/test/lovebook/app/config/mail.php",
+		"/Applications/MAMP/htdocs/finals/taxi/.bowerrc",
+		"/Applications/MAMP/htdocs/finals/game/resources/views/app.blade.php",
+		"/Applications/MAMP/htdocs/finals/trial/resources/views/app.blade.php",
+		"/Applications/MAMP/htdocs/finals/laravel/config/database.php",
+		"/Applications/MAMP/htdocs/finals/trial/config/database.php",
+		"/Applications/MAMP/htdocs/finals/trial/.env",
+		"/Applications/MAMP/htdocs/finals/laravel/.env",
+		"/Applications/MAMP/htdocs/finals/game/config/database.php",
+		"/Applications/MAMP/htdocs/finals/poolAppTutorial-master/config/database.php",
+		"/Applications/MAMP/htdocs/test/workflow-demo/config/database.php",
+		"/Applications/MAMP/htdocs/finals/l5-0/config/database.php",
+		"/Applications/MAMP/htdocs/finals/game/.env",
+		"/Applications/MAMP/htdocs/finals/test-laravel-5-project/vendor/laravel/framework/src/Illuminate/Database/Seeder.php",
+		"/Applications/MAMP/htdocs/finals/poolAppTutorial-master/config/mail.php",
+		"/Applications/MAMP/htdocs/finals/test-laravel-5-project/config/database.php",
+		"/Applications/MAMP/htdocs/finals/test-laravel-5-project/.env",
+		"/Applications/MAMP/htdocs/finals/test-laravel-5-project/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/Applications/MAMP/htdocs/finals/test-laravel-5-project/database/seeds/DatabaseSeeder.php",
+		"/Applications/MAMP/htdocs/finals/poolAppTutorial-master/storage/logs/laravel-2015-03-30.log",
+		"/Applications/MAMP/htdocs/finals/poolAppTutorial-master/.env",
+		"/Applications/MAMP/htdocs/finals/l5-0/composer.json",
+		"/Applications/MAMP/htdocs/finals/l5-0/app/Http/Controllers/UserController.php",
+		"/Applications/MAMP/htdocs/finals/poolAppTutorial-master/app/Commands/ReserveRoom.php",
+		"/Applications/MAMP/htdocs/finals/poolAppTutorial-master/app/Events/RoomWasReserved.php",
+		"/Applications/MAMP/htdocs/cbt/Ex_Files_UaR_jQuery_UI/Exercise Files/Ch_1/Accordion_finished.html",
+		"/Applications/MAMP/htdocs/cbt/Ex_Files_UaR_jQuery_UI/Exercise Files/Ch_1/Selectmenu_finished.html",
+		"/Applications/MAMP/htdocs/cbt/Ex_Files_UaR_jQuery_UI/Exercise Files/Ch_1/Slider_finished.html",
+		"/Applications/MAMP/htdocs/cbt/Ex_Files_UaR_jQuery_UI/Exercise Files/Ch_1/Spinner_finished.html",
+		"/Applications/MAMP/htdocs/test/workflow-demo/app/Http/Requests/Request.php",
+		"/Applications/MAMP/htdocs/todo/MyOwnAPI/app/MyModel.php",
+		"/Applications/MAMP/htdocs/todo/todoparrot/config/app.php",
+		"/Applications/MAMP/htdocs/todo/todoparrot/resources/views/untitled.blade.php",
+		"/Applications/MAMP/htdocs/todo/MyOwnAPI/.env",
+		"/Applications/MAMP/htdocs/todo/MyOwnAPI/MyOwn.sublime-project",
+		"/Applications/MAMP/htdocs/cbt/Ex_Files_UaR_jQuery_UI/Exercise Files/style.css",
+		"/Applications/MAMP/htdocs/todo/todoparrot/resources/assets/less/app.less",
+		"/Applications/MAMP/htdocs/todo/todoparrot/vendor/maximebf/debugbar/bower.json",
+		"/Applications/MAMP/htdocs/todo/todoparrot/node_modules/laravel-elixir/node_modules/parse-filepath/bower.json",
+		"/Applications/MAMP/htdocs/todo/todoparrot/node_modules/laravel-elixir/node_modules/gulp-coffee/node_modules/coffee-script/bower.json",
+		"/Applications/MAMP/htdocs/todo/todoparrot/node_modules/laravel-elixir/node_modules/gulp-coffee/node_modules/merge/bower.json",
+		"/Applications/MAMP/htdocs/todo/todoparrot/node_modules/laravel-elixir/node_modules/gulp-less/node_modules/less/bower.json",
+		"/Applications/MAMP/htdocs/todo/todoparrot/node_modules/laravel-elixir/node_modules/parse-filepath/node_modules/path-ends-with/bower.json",
+		"/Applications/MAMP/htdocs/todo/todoparrot/node_modules/laravel-elixir/node_modules/npm/node_modules/request/node_modules/hawk/bower.json",
+		"/Applications/MAMP/htdocs/todo/todoparrot/node_modules/laravel-elixir/node_modules/parse-filepath/node_modules/path-ends-with/node_modules/normalize-path/bower.json",
+		"/Applications/MAMP/htdocs/todo/todoparrot/node_modules/laravel-elixir/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/node_modules/postcss/node_modules/js-base64/bower.json",
+		"/Applications/MAMP/htdocs/todo/todoparrot/vendor/maximebf/debugbar/.bowerrc"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/finals/material-v1.2/material",
+			"/Applications/MAMP/htdocs/finals/material-v1.2/",
+			"",
+			"/Applications/MAMP/htdocs/todoparrot",
+			"/Applications/MAMP/htdocs/laravel-5-00",
+			"/Applications/MAMP/htdocs/",
+			"/Applications/MAMP/htdocs/cbt",
+			"",
+			"/Applications/MAMP/htdocs/cbt/Joy_of_Bootstrap",
+			"/Applications/MAMP/htdocs/cbt/30-days-jqry/lesson-26 1",
+			"/Applications/MAMP/htdocs/_l4/cln-09/vendor/laravel/framework/src/Illuminate",
+			"/Applications/MAMP/htdocs/_l4/cln-09",
+			"/Applications/MAMP/htdocs/_l4/cln-05",
+			"/Applications/MAMP/htdocs/demo/ngQuickDate-master",
+			"/Applications/MAMP/htdocs/L2/_cln/MyMovieDB.local",
+			"/Users/jonkrawczuk/Desktop/server",
+			"/Applications/MAMP/htdocs/L2/_alpha/proj-02/vendor/pda",
+			"/Applications/MAMP/htdocs/L2/_alpha/proj-01",
+			"/Applications/MAMP/htdocs/L2/_demo/laravel-eloquent-guide",
+			"/Applications/MAMP/htdocs/L2/_apis/lc_apis/app/Acme/Transformers",
+			"/Applications/MAMP/htdocs/L2/_ng/angdemo",
+			"/Applications/MAMP/htdocs/L2/_cln/todo-api",
+			"/Applications/MAMP/htdocs/L2/_cln/clean13",
+			"/Applications/MAMP/htdocs/L2/_cln/clean13/app/views",
+			"/Applications/MAMP/htdocs/L2/october",
+			"/Applications/MAMP/htdocs/laravel/larapress",
+			"/Applications/MAMP/htdocs/laravel/typi",
+			"/Applications/MAMP/htdocs/laravel/clean3",
+			"/Applications/MAMP/htdocs/laravel/clean2",
+			"/Applications/MAMP/htdocs/laravel/laravel-modules-example"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"build",
+			"skin",
+			"COLOR_OPTIONS",
+			"skin",
+			"g1.jpg",
+			"jon-head.jpg",
+			"dynam",
+			"skin",
+			"bg-primary",
+			"nav",
+			"nav-title",
+			"imd-dashboard",
+			"main.brand",
+			"Material",
+			"Web Application",
+			"Web",
+			"btn",
+			"Material",
+			"M",
+			"stores",
+			"pricing-tables",
+			"profile-header",
+			"logo-text",
+			"Material",
+			"main.brand",
+			"g1",
+			"Jon",
+			"LISA",
+			"brand",
+			"main",
+			"main.brand",
+			"lisa",
+			"invisibles",
+			"components",
+			"../../",
+			"'",
+			"\"",
+			"\n\"",
+			"\"",
+			"\n\"",
+			"\"",
+			":",
+			"success",
+			"You seem to be lost.",
+			"false",
+			"role =\"menuitem\"",
+			"role =\"presentation\"",
+			"body",
+			" >",
+			"< ",
+			"required|confirmed|min:",
+			"'password' => 'required|confirmed|min:8',",
+			"RegisterRequest",
+			"homestead",
+			"0001",
+			"001",
+			"1",
+			"nissan",
+			"circle",
+			"intro",
+			"todos",
+			"admin",
+			"\"#\"",
+			"'#'",
+			"60px",
+			"75",
+			"50",
+			"main",
+			"skin-main_menu",
+			"icon-close",
+			"background-color",
+			"600",
+			"skin-main",
+			"skin-i4",
+			"sh",
+			"li",
+			"button-menu-item",
+			"role",
+			"sub",
+			"qa",
+			"close",
+			"skin-qa",
+			"qa",
+			"menu",
+			"html",
+			"666",
+			"FFF",
+			"000",
+			"top-menu",
+			"badge",
+			"h1",
+			"lg",
+			"< ",
+			"visible",
+			"thumbnail",
+			"circle",
+			"variables.less",
+			"row",
+			"xs",
+			"sm",
+			"lg",
+			"md",
+			"c",
+			"extend",
+			"static",
+			"'",
+			"255",
+			"\"",
+			"h1",
+			"...",
+			"-rc.2",
+			"0",
+			"input",
+			"col-md-4",
+			"col-md-6",
+			"col-md-4",
+			"3",
+			"sub",
+			"sup",
+			"class",
+			"subject",
+			"h4",
+			"btn-primary",
+			"btn-sm",
+			"btn btn-info",
+			"primary",
+			"default",
+			"myApp"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			">",
+			"<",
+			"md",
+			"xs",
+			"sm",
+			"lg",
+			"\"",
+			">",
+			"<"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Applications/MAMP/htdocs/finals/mitu/config/app.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5115,
+								5115
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2307.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/MAMP/htdocs/finals/mitu/config/debugbar.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								424,
+								424
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Applications/MAMP/htdocs/finals/mitu/resources/views/home.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								267,
+								267
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Applications/MAMP/htdocs/finals/mitu/resources/views/app.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								760,
+								760
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Applications/MAMP/htdocs/finals/mitu/app/Models/Project.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Applications/MAMP/htdocs/finals/mitu/app/Libraries/Repositories/ProjectRepository.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								624,
+								624
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Applications/MAMP/htdocs/finals/mitu/config/generator.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 463.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 353.0
+	},
+	"pinned_build_system": "",
+	"project": "MyOwnAPI.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"project",
+				"mitu/app/Libraries/Repositories/ProjectRepository.php"
+			],
+			[
+				"ker",
+				"MyOwnAPI/app/Console/Kernel.php"
+			],
+			[
+				"main",
+				"landing/scripts/main.js"
+			],
+			[
+				"jon",
+				"material/client/i18n/ja.json"
+			],
+			[
+				"seeder",
+				"test-laravel-5-project/vendor/laravel/framework/src/Illuminate/Database/Seeder.php"
+			],
+			[
+				"test-5/seeder.php",
+				"test-laravel-5-project/vendor/laravel/framework/src/Illuminate/Database/Seeder.php"
+			],
+			[
+				"roomwas",
+				"poolAppTutorial-master/app/Events/RoomWasReserved.php"
+			],
+			[
+				"reserve",
+				"poolAppTutorial-master/app/Commands/ReserveRoom.php"
+			],
+			[
+				"bowe",
+				"vendor/maximebf/debugbar/bower.json"
+			],
+			[
+				"wel",
+				"todoparrot/app/Http/Controllers/WelcomeController.php"
+			],
+			[
+				"route",
+				"todoparrot/app/Http/routes.php"
+			],
+			[
+				"hello",
+				"laravel-5-00/app/Http/Controllers/HelloController.php"
+			],
+			[
+				"rou",
+				"app/Http/routes.php"
+			],
+			[
+				"",
+				"app/Http/Controllers/Auth/AuthController.php"
+			],
+			[
+				"registerre",
+				"vendor/symfony/event-dispatcher/Symfony/Component/EventDispatcher/DependencyInjection/RegisterListenersPass.php"
+			],
+			[
+				"rout",
+				"app/Http/routes.php"
+			],
+			[
+				"environmentdete",
+				"_l4/beni/vendor/laravel/framework/src/Illuminate/Foundation/EnvironmentDetector.php"
+			],
+			[
+				"appl",
+				"demo/REST/lib/API/Application.php"
+			],
+			[
+				"illuminate/container/container",
+				"simplecrud/vendor/laravel/framework/src/Illuminate/Container/Container.php"
+			],
+			[
+				"application.",
+				"demo/admin-demo/vendor/laravel/framework/src/Illuminate/Console/Application.php"
+			],
+			[
+				"applica",
+				"demo/REST/lib/API/Application.php"
+			],
+			[
+				"compiled.php",
+				"htdocs/simplecrud/bootstrap/compiled.php"
+			],
+			[
+				"logviewer.",
+				"_l4/cln-03/vendor/kmd/logviewer/src/Kmd/Logviewer/Logviewer.php"
+			],
+			[
+				"illuminate/pagination/environment",
+				"demo/92fiveapp/vendor/laravel/framework/src/Illuminate/Pagination/Environment.php"
+			],
+			[
+				"eloq",
+				"_l4/cln-01/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php"
+			],
+			[
+				"mai.",
+				"_l4/cln-03/app/config/mail.php"
+			],
+			[
+				"mail.",
+				"simplecrud/app/config/mail.php"
+			],
+			[
+				"htm",
+				"server/index.html"
+			],
+			[
+				"/illuminate/encryption/encrypter",
+				"vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php"
+			],
+			[
+				"cry",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Crypt.php"
+			],
+			[
+				"form",
+				"vendor/way/form/tests/FormFieldTest.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 329.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

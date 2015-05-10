@@ -88,12 +88,18 @@ Debugbar::warning('My Watch out…');
 Debugbar::addMessage('MyAnother message', 'mylabel');
 
 Debugbar::startMeasure('render','Time for rendering');
-Debugbar::stopMeasure('render');
+
 Debugbar::addMeasure('now', LARAVEL_START, microtime(true));
+
 Debugbar::measure('My long operation', function() {
-    // Do something…
+      for($i=0; $i<99; $i++)
+      {
+        return 'Hello World';
+      }
+
 });
 
+Debugbar::stopMeasure('render');
 /////////////////////////////////////////
 
 
