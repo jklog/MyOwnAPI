@@ -4,4 +4,5 @@ $encoded = base64_decode($string);
 $decoded = base64_decode(base64_encode($string));
 echo $encoded ."\n";
 echo $decoded;
+echo 'messages sent with success';
 ?>

@@ -5,7 +5,9 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+  margin: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 article,
 aside,
