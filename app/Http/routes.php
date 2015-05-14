@@ -32,3 +32,4 @@ Route::resource('vehicles', 'VehicleController', ['only' => ['index', 'show' ]])
 
 Route::resource('makers.vehicles', 'MakerVehiclesController', ['except' => ['edit', 'create' ]]);
 
+ 
