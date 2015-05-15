@@ -151,6 +151,7 @@ return [
 		'A2way\LaravelTenantMigrate\LaravelTenantMigrateServiceProvider',
 		'Clockwork\Support\Laravel\ClockworkServiceProvider',
 		'Barryvdh\Debugbar\ServiceProvider',
+		'Latrell\Swagger\SwaggerServiceProvider',
 
 	],
 
